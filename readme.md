@@ -3,7 +3,7 @@
 ## Lectures and reviews
 Missing something? Ping your lead on Slack. (Also, here is [all the code](https://github.com/learn-co-students/nyc04-seng-ft-120720) from the lectures.) 
 
-## Mod 1
+## Phase 1
 | Topic            | Video                | Code                | Chat notes | Slides |
 | -----            | ----                | -----                | ---- | ---- |
 | Intro to Phase One | - | - | - | - |
