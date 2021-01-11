@@ -7,8 +7,8 @@
     - Ask lecture-related questions in zoom chat or raise your hands when I open time for qs
     - Ask lab-related questions in Slack
 - Breaks: mid-lecture
-- [Roadmap document](https://github.com/learn-co-students/nyc04-seng-ft-120720/blob/main/Module1.md): expectations, labs, self-check, rubric
-- Lecture Code: clone the [class repo](https://github.com/learn-co-students/nyc04-seng-ft-120720)!
+- [Roadmap document](https://github.com/learn-co-students/nyc04-seng-ft-011121/blob/main/Module1.md): expectations, labs, self-check, rubric
+- Lecture Code: clone the [class repo](https://github.com/learn-co-students/nyc04-seng-ft-011121)!
 - Lecture readme released in the morning
 - Recordings: see in [Canvas](https://learning.flatironschool.com/courses/1510/modules/items/92726)
 - [Post-lecture check-in](https://forms.gle/foAk4awTymzn6YAk9)
