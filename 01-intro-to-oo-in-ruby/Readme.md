@@ -48,6 +48,7 @@ Transform `names` into a string with all the names separated by a comma.
     ```ruby
     dog1 = {"name": "ruby", "breed": "maltese"}
     dog2 = {"namne": "sora", "breed": "lab-pit"}
+    dog3 = {"name": "lilo", "breed": "fluffy"}
     ```
 * Why don’t we want to do this? 
     * We don't want to write your code over and over again.

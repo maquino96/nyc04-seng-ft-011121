@@ -1,0 +1,71 @@
+
+15:21:35	 From Eric Kim : Class repo: https://github.com/learn-co-students/nyc04-seng-ft-011121
+15:21:37	 From Sylwia Vargas (she/her) : What are objects in Ruby? What is "behavior" and "data"?
+How do I write a class in Ruby?
+What is a class and instance?
+How do I create a new instance of the class?
+How can I hack Ruby classes (e.g. String)? Why would I?
+15:28:34	 From Sylwia Vargas (she/her) : clear
+15:28:45	 From Jahaira Marrero : Click on the trash bin?
+15:29:11	 From Sylwia Vargas (she/her) : tab
+15:30:29	 From Max Beneke : .class
+15:30:31	 From Patrick Tuszakowski : .class
+15:30:31	 From Zak Dagnall : poem.type
+15:30:31	 From Jingchao Yu : poem.class
+15:30:33	 From Blaine Love : .class
+15:30:35	 From aaronmuesing : Poem.class
+15:30:37	 From Dayne Dewar : .class
+15:32:17	 From William Bugenis : poem.methods
+15:32:21	 From Zak Dagnall : poem.methods
+15:33:22	 From William Bugenis : Hitchhikers guide
+15:33:25	 From Zak Dagnall : hitchhikers guide to the galaxy
+15:33:25	 From Matthew Thomas : Hitchhikers guide
+15:33:25	 From Patrick Tuszakowski : hitchhickers
+15:33:27	 From Jeff Platt : ^^
+15:34:30	 From Zak Dagnall : error
+15:34:31	 From Matthew Thomas : error
+15:34:33	 From Chris Read : Its undefined
+15:35:59	 From Eric Kim : respond_to? is a nice method to know, but not a big priority at the moment
+15:36:43	 From Zak Dagnall : yes
+15:40:17	 From Eric Kim : Important information: `Puts` returns `nil`, which is different from the return value of a method
+15:40:55	 From William Bugenis : names.join(“,”)
+15:42:02	 From Dayne Dewar : names.join(‘, ‘)
+15:42:27	 From Eric Kim : Social distancing rules
+15:42:36	 From Sam Ferebee : ^^
+15:45:06	 From Eric Kim : Regex (regular expressions) is one of those things that are nice to know, but you don’t need to become experts at it by the end of today’s lecture
+15:46:04	 From Eric Kim : (I always google Regex in Ruby)
+15:49:29	 From Sylwia Vargas (she/her) : The way I learned some regex was just talking to myself a lot out loud while doing it so I remember some parts
+15:49:38	 From Sylwia Vargas (she/her) : but definitely, always using the cheat sheet
+15:49:40	 From Sylwia Vargas (she/her) : because
+15:49:53	 From Sylwia Vargas (she/her) : Regex is confusing
+15:55:25	 From Jay Liu : Typo on name in dog2
+15:56:18	 From andrewperlis : Name key on dog 2 is wrong
+15:58:18	 From Eric Kim : Placeholder (the thing between the pipes) should always be the singular version of an element in the array
+15:58:33	 From Eric Kim : Since it’s an array of dogs, a proper placeholder would be dog
+16:01:53	 From Zak Dagnall : praise the Lord
+16:08:14	 From Chris Read : How come it comes back nil again ?
+16:08:30	 From Zak Dagnall : puts prints to the screen but doesnt *return* anything
+16:08:46	 From Chris Read : Ohh I forgot about the top puts
+16:11:50	 From Matthew Thomas : No return
+16:11:52	 From Matthew Thomas : Its implicit
+16:12:01	 From Jahaira Marrero : no
+16:12:07	 From Jingchao Yu : Optional. But won’t break code
+16:12:55	 From Eric Kim : Ruby implicitly returns the last block/line of code (!!!! Important idea !!!!)
+16:14:35	 From Sam Ferebee : sora.bark
+16:15:29	 From Sam Ferebee : What’s the shortcut to comment out on vs code?
+16:15:51	 From Eric Kim : Highlight the line and press cmd + /
+16:17:50	 From Sylwia Vargas (she/her) : you don’t even have to highlight the line, just place your cursor there
+16:18:04	 From Sylwia Vargas (she/her) : THANK YOU FOR ASKING ABOUT THE SHORTCUTS
+16:18:10	 From Sylwia Vargas (she/her) : SHORTCUTS MAKE YOUR LIFE EASIER
+16:18:13	 From Sylwia Vargas (she/her) : LEARN THEM
+16:18:16	 From Eric Kim : option + Up/down arrow keys
+16:18:25	 From Eric Kim : move the line of code in VSC up and down
+16:18:26	 From Sylwia Vargas (she/her) : ^^^^^^^^^^!!!!!
+16:23:24	 From Eric Kim : I’ve also heard of it being called duck-punching
+16:24:18	 From Jay Liu : Haha, good one 
+16:24:27	 From Eric Kim : Just because you could doesn’t mean you should
+16:25:45	 From Eric Kim : self is going to be a very important keyword - we’ll cover it in greater detail in future lectures!
+16:33:22	 From Sylwia Vargas (she/her) : https://forms.gle/ETLd8q2Cbm9ZgAqZ6
+16:35:54	 From Steven Daniel : Thank you!
+16:36:02	 From William Bugenis : Thanks!
+16:36:07	 From Patrick Tuszakowski : Thank you everyone -)
