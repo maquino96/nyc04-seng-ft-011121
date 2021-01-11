@@ -1,7 +1,7 @@
-# Software Engineering -- NYC 120720
+# Software Engineering -- NYC 011121
 
 ## Lectures and reviews
-Missing something? Ping your lead on Slack. (Also, here is [all the code](https://github.com/learn-co-students/nyc04-seng-ft-120720) from the lectures.) 
+Missing something? Ping your lead on Slack. (Also, here is [all the code](https://github.com/learn-co-students/nyc04-seng-ft-011121) from the lectures.) 
 
 ## Phase 1
 | Topic            | Video                | Code                | Chat notes | Slides |
