@@ -1,7 +1,7 @@
-# Mod 1 Instruction and Schedule for 011121
+# Phase 1 Instruction and Schedule for 011121
 
 ## Table of contents
-- [Mod1 Expectations](#mod1-expectations)
+- [Phase1 Expectations](#phase1-expectations)
 - [Week 1](#week-1)
     - [W1 Monday](#w1-monday)
     - [W1 Tuesday](#w1-tuesday)
@@ -10,11 +10,10 @@
     - [W1 Friday](#w1-friday)
     - [W1 Weekend](#w1-weekend)
 - [Code Challenge Rubric](#code-challenge-rubric)
-- [Terminology](#terminology)
 
 ---
 
-## Mod1 Expectations
+## Phase1 Expectations
 Welcome to Module 1, where we will expand and deepen your understanding of Ruby. In the next three weeks, you should become more comfortable with writing Ruby in Object Oriented paradigm, combine it with a database and finally, create your own CLI. Please don't panic -- we will guide you through this process. 
 
 In order to take most of this mod, please take these pieces of advice to heart:
@@ -57,7 +56,7 @@ Have a question? [Ask us!](https://flatiron-school.slack.com/archives/C018TV7P7U
 
 ## Week 1
 
-Week one of every module is designated for you to get exposure to different topics that you will consolidate over the following weekend and the days before the code challenge and then practice further in the project week. Usually, you will get **A LOT** of labs in the first days -- please know you will have time to finish them by the end of the week and focus initially on the priority ones. In Mod1 Week1 you will:
+Week one of every module is designated for you to get exposure to different topics that you will consolidate over the following weekend and the days before the code challenge and then practice further in the project week. Usually, you will get **A LOT** of labs in the first days -- please know you will have time to finish them by the end of the week and focus initially on the priority ones. In Phase1 Week1 you will:
 - write your own classes,
 - use getter and setter methods for attributes,
 - add instance and class methods,
