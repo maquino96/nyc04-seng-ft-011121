@@ -47,7 +47,7 @@ Transform `names` into a string with all the names separated by a comma.
 * Creating hash for dogs with dog's type and breed:
     ```ruby
     dog1 = {"name": "ruby", "breed": "maltese"}
-    dog2 = {"namne": "floof", "breed": "corgi"}
+    dog2 = {"namne": "sora", "breed": "lab-pit"}
     ```
 * Why don’t we want to do this? 
     * We don't want to write your code over and over again.
