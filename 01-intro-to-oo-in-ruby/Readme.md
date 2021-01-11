@@ -11,7 +11,7 @@
 - Lecture Code: clone the [class repo](https://github.com/learn-co-students/nyc04-seng-ft-011121)!
 - Lecture readme released in the morning
 - Recordings: see in [Canvas](https://learning.flatironschool.com/courses/1510/modules/items/92726)
-- [Post-lecture check-in](https://forms.gle/foAk4awTymzn6YAk9)
+- [Post-lecture check-in](https://forms.gle/pKATnUowLEcGdHsa7)
 
 ## Learning Goals:
 
