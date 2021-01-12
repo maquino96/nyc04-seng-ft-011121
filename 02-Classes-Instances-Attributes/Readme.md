@@ -7,6 +7,13 @@
 - [ ] Use `attr_` macros instead of reader and writer methods
 - [ ] Add behavior to a class instance
 
+<!-- In this Phase we will be talking about: -->
+- local_vars
+- @instance_var
+- @@class_vars
+- CONSTS
+- $global_vars
+
 ## Analogy time 
 We no longer create a hash every single time we want to create a dog object. Instead, we created a blueprint (the `Dog class`) for Ruby to do the job for us. For this lecture imagine Ruby as an elf who assembles together gifts for kids:
 

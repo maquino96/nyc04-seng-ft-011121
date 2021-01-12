@@ -1,0 +1,47 @@
+10:54:04	 From Sam Ferebee : What’s the difference between @@class variables and @class variables?
+10:54:38	 From Eric Kim : Think of instances from a class as variables - not only can variables hold information (attributes), the variables can be operated on (behavior/methods)
+10:56:51	 From Eric Kim : (^ Just a good way to think about the lectures - It’s not necessarily an answer to Sam’s question)
+10:58:41	 From Sam Ferebee : Parameter accepts the argument from the function call
+11:01:53	 From Eric Kim : ClassABC.new() -> calls on the initialize method within the ClassABC
+11:02:30	 From Matthew Thomas : When do we use @ during initialise?
+11:02:50	 From Eric Kim : We’re gonna see that real quick, @Matthew
+11:02:51	 From Kwaku : What does binding.pry do again ?
+11:03:06	 From Sam Ferebee : Stops the execution of the program at that point so you can debug
+11:04:20	 From Kwaku : Thanks
+11:06:56	 From Eric Kim : @Matthew, we use the @variables (instance variables) to attach information to an instance
+11:07:11	 From Matthew Thomas : Gotcha! Thanks!
+11:07:21	 From Matthew Aquino : Can we think of instance variables as keys in an object?
+11:08:03	 From Eric Kim : I think that’s a good way to think about it - it doesn’t translate too well in code, but in terms of thinking about it, I think that’s fine!
+11:10:50	 From Sam Ferebee : So if you for example need a counter variable just within a method that you can then discard, you just name it normally then it goes out of scope after the method ends?
+11:11:32	 From Eric Kim : Regular local variables in Ruby can’t go outside the scope of the method
+11:13:06	 From Eric Kim : If you want to build out a counter that increases every time a method is called, you would need to use a differently scoped variable (class, global, instance) but each of them have their own quirks
+11:16:00	 From Sylwia Vargas (she/her) : https://medium.com/swlh/hitchhikers-guide-to-ruby-variables-1b4cf83d540c
+11:16:08	 From Sylwia Vargas (she/her) : ^ here’s my blogpost about ruby variables
+11:16:20	 From Sylwia Vargas (she/her) : (Hitchhikers guide to the galaxy theme)
+11:19:52	 From Eric Kim : We’re making use of Ruby’s implicit return to accomplish getting the instance variable of the name!
+11:22:31	 From Eric Kim : There has to be an easier way!
+11:22:39	 From Matthew Aquino : ^^pls
+11:23:40	 From Eric Kim : WET - We enjoy typing
+11:23:46	 From Eric Kim : DRY - Don’t repeat yourself
+11:23:50	 From Patrick Tuszakowski : lol
+11:26:48	 From Eric Kim : The purpose of the attr_ macros is that they give us instance methods (<- IMPORTANT IDEA)
+11:32:03	 From Eric Kim : You’re now the architects of your own app - there isn’t a universal right answer, it’s a question of what features you want in your app!
+11:32:08	 From William Bugenis : Is there ever a reason to manually write out the getter/setter methods instead of using the attr_ macros?
+11:32:36	 From Eric Kim : @William - If you want custom reader/writer methods, you may want to write out the methods manually
+11:32:46	 From William Bugenis : Thanks!
+11:32:58	 From Eric Kim : But if you want the default behavior of getting/setting information, we recommend that you use the attr_ macros
+11:33:32	 From Zak Dagnall : Do we need to list :name with both reader and accessor? Doesn't accessor include the reader?
+11:37:04	 From Matthew Aquino : Did you say we’re going to review attributes like passwords in a later class or is that just stored with attr_writer?
+11:37:21	 From Matthew Aquino : Private attributes*
+11:39:14	 From Eric Kim : @Matthew, we’ll talk a lot more about passwords in Phase 2 once we get to databases
+11:39:54	 From Matthew Thomas : Do you ever need to make sure your parameters are a certain data type? Like making sure name is a string or number of legs is an int?
+11:40:52	 From Eric Kim : Ruby as a language isn’t a typed language, so there isn’t a built in feature, but I think having safeguards like checking the datatype is good practice
+11:41:27	 From Matthew Thomas : gotcha
+11:41:36	 From Zak Dagnall : can you "overload" methods in ruby? In other words, If i want to be able to run a method using 2 parameters but also run the same method using 4 parameters, or something?
+11:42:10	 From Eric Kim : @Zak, yes if you use default parameters like the attitude_parameter
+11:43:01	 From Eric Kim : There’s also something called the splat operator in Ruby if you want to do some additional research!
+11:43:02	 From Sylwia Vargas (she/her) : https://docs.google.com/forms/d/e/1FAIpQLSfdH1UpGEc2Iaa5YKsRmE6B-GrRiZ2RyjZOx7CNrbRDTslE_g/viewform
+11:43:44	 From Jahaira Marrero : Where are the videos located?
+11:44:01	 From Eric Kim : They’re located on the README of our class repo!
+11:46:15	 From Jeff Platt : Thank you
+11:46:52	 From Sylwia Vargas (she/her) : https://learning.flatironschool.com/courses/2287/modules/items/92925
