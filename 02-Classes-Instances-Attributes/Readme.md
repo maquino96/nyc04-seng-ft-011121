@@ -84,3 +84,7 @@ this is what might be happening:
 ## Add behavior to the dog instance
 Our dog can already bark, now let's make it spin. 
  <img src="dog-rb-3.png" height="300px" width="auto" style="display:inline"  alt="an ikea-like manual">
+
+## Homework
+
+Building on the previous housemate homework, add some attributes to your housemate, decide which should be reader/accessors; add a comment explaining your decision
