@@ -36,3 +36,8 @@ sora = Dog.new("Sora", nil , "lab-pit")
 
 binding.pry
 0
+
+# ruby.run
+# preciosa.sit
+# sora.sleep
+# ruby.bark
