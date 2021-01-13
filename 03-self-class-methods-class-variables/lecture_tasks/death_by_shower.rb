@@ -2,6 +2,12 @@ require 'pry'
 
 class Person
 
+    #this is a class variable, you can update it from any point in the class
+    @@bubbles = "bubbles everywhere"
+
+    # this array will hold all the instances
+    @@all = []
+
     attr_reader :name
     attr_accessor :last_hunger_change, :hunger_level, :hunger_time
 
@@ -14,11 +20,9 @@ class Person
         @@all << self
     end
 
-    #this is a class variable, you can update it from any point in the class
-    @@bubbles = "bubbles everywhere"
-
-    # this array will hold all the instances
-    @@all = []
+    def self.all
+        @@all
+    end
 
     def shower
         head_n_shoulders
@@ -37,7 +41,7 @@ class Person
             #die from hunger
             else
                 puts "💀 💀 💀 DEAD 💀 💀 💀 "
-                return "#{@name} no more"
+                return "#{name} no more"
             end
         else
         #if not hungry yet, just rinse, lather, repeat
@@ -71,10 +75,6 @@ class Person
             #and we update the last hunger change
             last_hunger_change = Time.now
         end
-    end
-
-    def self.all
-        @@all
     end
 
 end
