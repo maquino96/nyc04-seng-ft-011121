@@ -1,0 +1,36 @@
+13:47:13	 From Chase Rabenn : Thank god Max is here
+13:47:27	 From Max Beneke : :0
+13:49:43	 From Sam Ferebee : Sorry where can I find the repo?
+13:49:58	 From Jeffrey Platt : Yeah, can you go over how to clone the repo again
+13:50:04	 From Eric Kim : https://github.com/learn-co-students/nyc04-seng-ft-011121
+13:50:07	 From Sam Ferebee : ty
+13:50:40	 From Dayne Dewar : Are we forking it as well?
+13:50:41	 From Eric Kim : It’s pinned to our Slack channel (and is going to be where the code and recordings lives)
+13:50:42	 From Max Beneke : The repo is pinned to our slack as well
+13:50:46	 From Eric Kim : You should not fork the repo
+13:51:03	 From Dayne Dewar : 👍🏽
+13:51:13	 From Eric Kim : https://flatiron-school.slack.com/archives/C01C0SG5GPQ/p1610401413065100
+13:51:24	 From Eric Kim : If you want to pull down the most up to date code
+14:04:43	 From William Bugenis : 9
+14:05:21	 From Max Beneke : What’s the key shortcut to replace every word in a method? (Sylvia replaced “argument” with “parameter” all at once)
+14:05:30	 From Eric Kim : cmd + d
+14:05:35	 From Zachary Dagnall : great question Max
+14:05:43	 From Max Beneke : That’ll be helpful
+14:05:52	 From Sam Ferebee : Shortcuts are life
+14:09:32	 From William Bugenis : Its working inside the scope of the class
+14:10:04	 From Jingchao Yu : When you call new, the contractor method is automatically called and thus legs created
+14:11:01	 From Matthew Thomas : If we can call the value of a method by saying it’s variable, why are reader methods necessary
+14:11:20	 From Zachary Dagnall : @Matt, for accessing that variable information from *outside* the class
+14:11:29	 From Matthew Thomas : Thanks!
+14:12:09	 From Sam Ferebee : Bark is a method that is a member of the class, so it can use any instance variables of that class. But if you wanted to access the variable with a method (or anything) that is not a member of the class, you need a means to access it (a getter method)
+14:12:32	 From Eric Kim : When you have an instance of a dog floating out in a variable, you need a reader method to get the internal instance variable attached to the instance
+14:14:37	 From Sylwia Vargas (she/her) : "self is a special variable that points to the object/class that "owns" the currently executing code."
+14:20:07	 From Eric Kim : Class methods begin with `self` in their definitions (Important!)
+14:21:06	 From Eric Kim : Instance methods can only be called on an instance! (Also important!)
+14:25:27	 From Eric Kim : `self` inside instance methods behave differently than `self` inside class methods! (HUGE IMPORTANT IDEA)
+14:25:49	 From Eric Kim : `self` inside instance methods becomes the instance
+14:25:59	 From Eric Kim : `self` inside class methods becomes the class
+14:28:08	 From Chris Read : How do you check self again the last way you explained
+14:31:33	 From Jingchao Yu : Why didn’t self.who_am_i return I am #(some memory location) but who_am_i did?
+15:05:15	 From Sylwia Vargas (she/her) : https://docs.google.com/forms/d/e/1FAIpQLSfdH1UpGEc2Iaa5YKsRmE6B-GrRiZ2RyjZOx7CNrbRDTslE_g/viewform
+15:08:55	 From Jahaira Marrero : Patrick do you want to try to submit our challenge? I still have it open.
