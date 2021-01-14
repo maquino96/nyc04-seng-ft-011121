@@ -1,0 +1,88 @@
+10:52:29	 From Sam Ferebee : You want to control all of your data, so if you want something to be readable but NOT changeable, use reader
+10:52:34	 From Sam Ferebee : If you want both, use accessor
+10:53:16	 From Kwaku Gyapong : So you can’t see data at all ? if you don’t use attr_reader
+10:53:24	 From Sam Ferebee : Using accessor makes something writeable which could be an issue if you didn’t intend for it to ever be changed (maybe someone else is working on your codebase and doesn’t know you should never change the var)
+10:54:01	 From Zachary Dagnall : @Kwake, when they talking about "seeing" the data here, they mean from outside the class, not from within. You can always see the data from within. (i believe)
+10:54:12	 From Zachary Dagnall : *@Kwaku** my bad
+10:54:40	 From Kwaku Gyapong : Okayyyyyyyyyy that helps my brain thanks lol
+10:56:09	 From Jeff Platt : Great question
+10:58:59	 From Chase Rabenn : How did you find your self?
+10:59:01	 From Kwaku Gyapong : what the first method calls on ?
+10:59:04	 From stevendaniel : An indexical
+10:59:56	 From aaronmuesing : Self is a special variable that points to the object/class that “owns” the currently executing code.
+11:00:14	 From aaronmuesing : — yesterdays lecture
+11:01:21	 From Sam Ferebee : To me I think of it like: self is either the entire class or the current instance of the class you are working on
+11:01:28	 From Zachary Dagnall : Maybe methods are like Genies. The Genie can do all sorts of things for you. But who called the Genie? If Aladdin rubbed the lamp (aka 'called a method') then Aladdin is "self" right now. But when Jafar rubs the lamp (calls a method), then that method is *his* genie now.  Jafar is "self". So who is the one calling the genie (who is the one invoking this method)? That's self.
+11:02:12	 From Gabriel Demes : Isn’t this because Tweet an instance of a larger class
+11:02:15	 From Patrick Tuszakowski : I like that Zach
+11:02:21	 From Kwaku Gyapong : goat Zach
+11:03:58	 From andrewperlis : Zach FTW
+11:04:04	 From Jahaira Marrero : Thanks Zach.
+11:09:18	 From William Bugenis : That was really helpful, thanks!
+11:09:22	 From Jeff Platt : That actually makes sense now, ty
+11:15:12	 From Sam Ferebee : @@ = class, @ = instance
+11:21:55	 From Jahaira Marrero : Thanks Aaron. I had that same question yesterday.
+11:23:12	 From Zachary Dagnall : really great question Sam
+11:26:53	 From Sam Ferebee : Blueprint / template
+11:27:02	 From William Bugenis : A representation of what something should be
+11:28:24	 From Sam Ferebee : Something that encompasses or things
+11:28:28	 From Sam Ferebee : other*
+11:28:33	 From Jingchao Yu : Scope/limit
+11:35:47	 From Jahaira Marrero : Questions pending…
+11:39:08	 From Zachary Dagnall : A house has many windows, but each window only belongs to one house. A body has many cells, but each cell only belongs to one body. A grade school teacher has many students, but each grade school student has only one teacher. A high school teacher has many students, and each high schooler has many teachers.
+11:40:29	 From William Bugenis : A shopping cart has many items, but a user only has one cart
+11:40:32	 From Jingchao Yu : A person has many roles, many roles belong to that person
+11:40:58	 From Sam Ferebee : I have many pair of shoes, my shoes have 1 owner
+11:41:31	 From Jahaira Marrero : A store has many aisles but all aisles belong to the store?
+11:41:46	 From aaronmuesing : An auditorium has many seats, but each audience member has one ticket
+11:41:56	 From Patrick Tuszakowski : A plant has many leaves but the leaves belong to one plant
+11:44:14	 From Chris Read : 👀 we building twiiter
+11:44:34	 From Chris Read : (Joking)
+11:44:48	 From Patrick Tuszakowski : Hopefully Facebook will make us an offer
+11:45:01	 From Jahaira Marrero : (Laughs in Twitter)
+11:45:24	 From Dayne Dewar : Lets make sure to keep Donald banned on this too
+11:45:39	 From Chris Read : 😂😂😂
+11:45:46	 From William Bugenis : Hahahaha Dayne
+11:45:51	 From Patrick Tuszakowski : lmfao
+11:48:45	 From aaronmuesing : Thats different from bean dad
+11:50:14	 From Patrick Tuszakowski : user
+11:50:17	 From Jahaira Marrero : user
+11:50:42	 From Jahaira Marrero : This is exciting!
+11:51:45	 From Dayne Dewar : Why Is the 0 under the pry?
+11:52:08	 From Max Beneke : It just helps activate pry when it’s not specifically called in a method
+11:52:22	 From Chris Read : Ahh alright
+11:52:24	 From Dayne Dewar : Figured, thank you
+11:56:27	 From Patrick Tuszakowski : reader
+11:56:30	 From Jeff Platt : reader
+11:56:43	 From Patrick Tuszakowski : accessor
+11:56:46	 From Jahaira Marrero : accessor
+11:56:47	 From Dayne Dewar : accessor
+12:04:51	 From Eric Kim : It is much easier for one instance to remember one other instance than it is for one instance to keep track of the multiple instances!
+12:16:59	 From Patrick Tuszakowski : Would it be user.username?
+12:22:07	 From William Bugenis : find_all
+12:22:10	 From Sam Ferebee : Find_all
+12:22:10	 From Patrick Tuszakowski : Collect
+12:22:12	 From Dayne Dewar : select
+12:24:59	 From Eric Kim : What Sylwia is doing right now is going to be CRUCIAL for you to pass the Code Challenge, so please please ask any and all questions about what she just did
+12:26:11	 From Matthew Aquino : Can you review how Tweet.all has access to tweet.rb from the user.rb file
+12:26:33	 From Dayne Dewar : ^^
+12:26:57	 From Max Beneke : ^^ (I think it’s b/c she
+12:26:57	 From Patrick Tuszakowski : Its because run.rb requires user.rb and tweet.rb I think
+12:27:02	 From Eric Kim : We’re defining the methods in the User.rb, but by the time we execute them in the run.rb, we have the two requires on the top and that’s the secret sauce to making the files know about one another
+12:28:04	 From Matthew Aquino : Ty both
+12:28:09	 From Patrick Tuszakowski : =)
+12:28:15	 From Dayne Dewar : So if we were just running this in user.rb it wouldn’t work ?
+12:28:24	 From Max Beneke : Would you ever require tweets.rb in user.rb? (Or vice versa?)
+12:28:44	 From Dayne Dewar : Even if we require tweets.rb?
+12:29:10	 From Dayne Dewar : Just saw what max said lol same question
+12:29:11	 From Eric Kim : @Dayne, it would not work
+12:31:07	 From Patrick Tuszakowski : Keeps your code clean
+12:31:56	 From Eric Kim : You will not have to worry about the environment set up on the CC - some skeleton of a file structure will be given to you!
+12:33:39	 From Matthew Aquino : self
+12:33:40	 From Matthew Aquino : ?
+12:33:42	 From Patrick Tuszakowski : self
+12:34:14	 From Patrick Tuszakowski : Pry is amazing
+12:38:20	 From Jay Liu : Know what's more amazing than Pry?
+12:38:22	 From Jay Liu : 2 of them
+12:38:34	 From Gabriel Demes : LOL ^
+12:39:33	 From Kwaku Gyapong : what time will this lesson be available for me to rewatch ?
