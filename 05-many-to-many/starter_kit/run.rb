@@ -11,8 +11,8 @@ require_all 'models'
 # TEST DATA
 doctor1 = Doctor.new("Dr Evil", "evilness") #will have one appt
 doctor2 = Doctor.new("Dr Peppers", "necromancy") #will have many appt
-doctor3 = Doctor.new("Dr Oz", "optometry", "London") #will have no appt
-doctor4 = Doctor.new("Dr Genius", "brain power") 
+doctor3 = Doctor.new("Dr Oz", "optometry", "London") #will have one appt
+doctor4 = Doctor.new("Dr Genius", "brain power") #will have no appt
 
 patient1 = Patient.new("Chase") #will have one appt
 patient2 = Patient.new("Sylwia") #will have many appt
