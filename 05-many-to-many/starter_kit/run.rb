@@ -14,9 +14,9 @@ doctor2 = Doctor.new("Dr Peppers", "necromancy") #will have many appt
 doctor3 = Doctor.new("Dr Oz", "optometry", "London") #will have no appt
 doctor4 = Doctor.new("Dr Genius", "brain power") 
 
-patient1 = Patient.new("Hasibul") #will have one appt
+patient1 = Patient.new("Chase") #will have one appt
 patient2 = Patient.new("Sylwia") #will have many appt
-patient3 = Patient.new("Michelle") #one appt
+patient3 = Patient.new("Eric") #one appt
 patient4 = Patient.new("Signe") #no appt
 
 # building many-to-many relationship:
