@@ -11,7 +11,7 @@
 * Demonstrate Single Source of Truth
 * Infer type of method (class or instance) through naming conventions
 
-### Outline
+### Review
 
 * Quick review of OOP:
   * we created classes
@@ -19,6 +19,18 @@
   * we created instance and class methods
   * we used `attr_` macros for getters and setters
   * we looked at `self`
+
+### Questions
+- How do I recognize a class variable? How do I recognize an instance variable?
+- What is a class variable? 
+- How is instance variable (@name) different from just regular variable (name)?
+- How do I write a class method? And instance method?
+- What is self? 
+- How do I know if the self will denote a class or an instance?
+- How can I check what self denotes?
+- How can I store all instances of the same class?
+
+
 
 ### Define
 
