@@ -26,20 +26,20 @@ What do the following mean in plain English? What do they mean in programming?
 
 * Model
 * Domain
-* Domain modeling
 * Relationships
   * One to many relationship
   * Many to many relationship
 
-_Why do we care so much about codifying and being really specific about the terminology of has-many/belongs-to?_ The terms are very powerful because we can use the same idea to describe relationships across many different types of domains. The relationship between artist and song, is the same as book and author, user and tweets, etc.
+**How to think about relationships**
 
-* Schema
-* Single Source of Truth
-  * How can we start thinking about the data in our models?
-
-### How to think about relationships
 1. For every one (x), how many (y)? 
 2. For every one (y), how many (x)?
+
+_Why do we care so much about codifying and being really specific about the terminology of has-many/belongs-to?_ The terms are very powerful because we can use the same idea to describe relationships across many different types of domains. The relationship between artist and song, is the same as book and author, user and tweets, etc.
+
+* Domain modeling
+* Single Source of Truth
+  * How can we start thinking about the data in our models?
 
 ### Deliverables
 
