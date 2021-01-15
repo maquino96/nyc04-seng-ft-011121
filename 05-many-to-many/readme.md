@@ -4,7 +4,7 @@
 ## LGs:
 - [ ] Revise one-to-many
 - [ ] Practice keeping groups of data related to classes on the class as a class variable
-- [ ] Practice domain modelling 
+- [ ] Practice domain modelling (ERD)
 - [ ] Demonstrate Single Source of Truth by not storing collections of objects on other objects and storing objects only in one place (the class where they belong to)
 - [ ] Implement both sides of a many to many relationships
 
@@ -16,24 +16,29 @@
     - "Class can only store information about their own instances"
   * What is an example of one-to-many relationship:
     - Tweet belongs to a User, User has many Tweets;
-    - Leaf belongs to a Tree, Tree has many Leaves;
-  * In one-to-many relationship (e.g. Tweet >- User), on which side do I treat the instance as a parameter to initialize to connect the two models?
-    - when initializing Tweet, we pass a User instance as an argument;
-    - when initializing Leaves, we pass a Tree instance as an argument;
+      Tweet >- User // one-to-many 
+      - when initializing Tweet, we pass a User instance as an argument;
+      - One way to think about it: when a tweet is made it must have a user attached to it. But when a user is made, a tweet isn’t necessarily made.
+      - I call the User the independent class and the Tweet the dependent class, since the instance of a Tweet depends on a User instance existing
   * In one-to-many relationship, can a User have 0 Tweets?
+      YESSS!!!!
 
 ## How to think about relationships
 1. For every one (x), how many (y)? 
 2. For every one (y), how many (x)?
 
 ## Many-to-Many
+
 1. One-to-many
-- Tweet User
-- League Team Player
-- City School Student
+- Tweet >- User
+- League -< Team -< Player
+- City -< School -< Student
+- Store -< Aisle
+- Plant -< Leaf
 
 2. Many-to-many
-3 mins to come up with examples
+    - A high school teacher has many students, and each high schooler has many teachers.
+    - A dog can have many humans and a human can have many dogs
 
 ---
 
@@ -41,11 +46,13 @@
 
 Doctor and Patiens
 
+YAGNI: you ain't gonna need it
+
 * How many classes do we need?
 * Let's discuss the attributes
-    * Doctor: ?
-    * Patient: ?
-    * ?
+    * Doctor: specialty, name
+    * Patient: name, birth (year)
+    * ?  : problem
 * Let's discuss the methods
     * What are the minimum methods we are going to need?
       * `initialize`
